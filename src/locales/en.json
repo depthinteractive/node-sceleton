@@ -1,0 +1,14 @@
+{
+	"EMAIL_IS_INVALID": "Email contains an error.",
+	"EMAIL_ALREADY_EXISTS": "This user is already registered.",
+	"USER_IS_INVALID": "A user with this ID is not registered on the site",
+	"PASSWORD_IS_NOT_EQUALS": "Passwords do not match.",
+	"ERROR_500": "Error 500",
+	"_ID_IS_INVALID": "User ID is invalid.",
+	"INTERNAL_SERVER_ERROR": "Server error",
+	"ERROR_422": "Error 422",
+	"ERROR_400": "Error 400",
+	"USER_DOES_NOT_EXISTS": "This user is not registered on the site.",
+	"PASSWORD_IS_ICORRECT": "Invalid password.",
+	"NAME_IS_INVALID": "Invalid name."
+}

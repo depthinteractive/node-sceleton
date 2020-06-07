@@ -1,0 +1,13 @@
+{
+  "watch": ["./src"],
+  "ext": "ts",
+  "ignore": ["src/**/*.spec.ts"],
+  "exec": "ts-node ./src/app.ts",
+  "env": {
+    "NODE_ENV": "dev",
+    "API_VERSION_PATH": "/api/v1",
+    "MONGO_USER": "Vic",
+    "MONGO_PASSWORD": "GFHJKMvoj2008",
+    "MONGO_DATABASE": "app"
+  }
+}

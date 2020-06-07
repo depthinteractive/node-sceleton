@@ -1,0 +1,22 @@
+{
+  "$id": "updateUser.json#",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "_id": { "type": "string" },
+    "name": { "type": "string", "minLength": 2 },
+    "role": { "type": "string" },
+    "status": { "type": "string" }
+  },
+  "required": [
+    "_id",
+    "name"
+  ],
+  "additionalProperties": false,
+  "errorMessage": {
+    "properties": {
+      "_id": "_ID_IS_INVALID",
+      "name": "NAME_IS_INVALID"
+    }
+  }
+}

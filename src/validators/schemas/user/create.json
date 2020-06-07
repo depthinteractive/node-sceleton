@@ -1,0 +1,23 @@
+{
+  "$id": "createUser.json#",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "email": { "regexp": "/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/" },
+    "password": {
+      "type": "string",
+      "minLength": 6
+    }
+  },
+  "required": [
+    "email",
+    "password"
+  ],
+  "additionalProperties": false,
+  "errorMessage": {
+    "properties": {
+      "email": "EMAIL_IS_INVALID",
+      "password": "PASSWORD_IS_ICORRECT"
+    }
+  }
+}

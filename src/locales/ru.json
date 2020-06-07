@@ -1,0 +1,22 @@
+{
+	"EMAIL_IS_INVALID": "Эл. почта содержит ошибку.",
+	"EMAIL_ALREADY_EXISTS": "Такой пользователь уже зарегистрирован.",
+	"USER_IS_INVALID": "Пользователь с таким ID не зарегистрирован на сайте",
+	"PASSWORD_IS_NOT_EQUALS": "Пароли не совподают.",
+	"ERROR_500": "Ошибка 500",
+	"_ID_IS_INVALID": "ID пользователя недействитлен.",
+	"INTERNAL_SERVER_ERROR": "Серверная ошибка",
+	"ERROR_422": "Ошибка 422",
+	"ERROR_400": "Ошибка 400",
+	"USER_DOES_NOT_EXISTS": "Такой пользователь не зарегистрирован на сайте.",
+	"PASSWORD_IS_ICORRECT": "Неверный пароль.",
+	"NAME_IS_INVALID": "Имя введено некорректно.",
+	"Эл. почта содержит ошибку.": "Эл. почта содержит ошибку.",
+	"Cannot read property 'id' of null": "Cannot read property 'id' of null",
+	"E11000 duplicate key error collection": " app.users index: email_1 dup key: { email: \"softkorp.linux@gmail.com\" }",
+	"User validation failed": " email: Error, expected `email` to be unique. Value: `softkorp.linux@gmail.com`",
+	"Unexpected error value": " [{ keyword: \"errorMessage\", dataPath: \"/email\", schemaPath: \"#/errorMessage\", params: [Object], message: \"EMAIL_IS_INVALID\" }, { keyword: \"errorMessage\", dataPath: \"/password\", schemaPath: \"#/errorMessage\", params: [Object], message: \"PASSWORD_IS_ICORRECT\" }]",
+	"[object Object]": "[object Object]",
+	"ERROR_450": "ERROR_450",
+	"email_ALREADY_EXISTS": "email_ALREADY_EXISTS"
+}
